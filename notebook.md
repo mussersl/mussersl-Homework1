@@ -20,7 +20,7 @@ One way to fix the pet class writing to the console is to add a logger into the
 data source layer that they call. The logger would then write to the files
 immediately.
 
-![](images/ClassDiagram2.png)
+![](images/Classdiagram2.png)
 
 The other way to solve this is to have a Data Mapper in the data source layer
 that everything uses to interact with files.
