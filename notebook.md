@@ -67,3 +67,24 @@ needs user input. It works similarly to the previous design where the action
 returns true or false depending on whether it needs user input to continue.
 
 ![](images/Sequence2.png)
+
+Entry 6
+Date 4/3/2020
+Time Taken: 120 Minutes
+
+The design supports most functions, however, PetMain contains several methods
+that need the loadPets method that the design removed from PetMain and moved to
+Zookeeper.
+
+The sequence diagram contains a WebService class that was not found in the class
+diagram. I assumed this was after it was adapted to work on a website,
+considering its name. The sequence diagram also does not seem to support feeding
+more than one pet.
+
+Eric Tu's class diagram is nearly identical, but the sequence diagrams vary
+greatly. Tu's design attempts to get user input and then load the pets, while my
+design I assume the pets are already loaded and don't include loading the pets in
+the sequence diagram.
+
+Looking back at my sequence diagram it is not very clear how the
+giveInputAndContinue method works.
